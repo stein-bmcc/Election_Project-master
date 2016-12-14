@@ -1,3 +1,6 @@
+
+<!doctype html>
+<html class="no-js" lang="en-us">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -19,13 +22,16 @@
     <h2>Young University Squad</h2>
 </div>
 
-<div id="nav">
+<nav id="nav">
+<ul>
  <li><a href="index.html" >Home</a></li>
     <li><a href="ElectionDay.html">Election Day</a></li>
    <li><a href="Candidates.html" >Candidates</a></li>
     <li><a href="Register.html" >Register</a></li>
     <li><a href="Events.html" >Events</a></li>
     <li><a href="Resources.html" >Resources</a></li>
+    </ul>
+</nav>
 
 </header>
 
@@ -40,3 +46,18 @@
    <footer>
    &copy; Young University Squad
     </footer>
+
+<!-- Load CDN version of jQuery. For other versions visit this page: https://code.jquery.com/jquery/ -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <!--    Load Local version if CDN is not working-->
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.1.1.min.js"><\/script>')</script>
+
+    <!--   Your jQuery and other JavaScript can go here in this script element. -->
+    <script>
+        jQuery(document).ready(function ($) {
+            // Your jQuery code here, using $ to refer to jQuery.
+        });
+    </script>
+</body>
+
+</html>
