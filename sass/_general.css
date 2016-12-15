@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700|Playfair+Display|Playfair+Display+SC');
 @import url('https://fonts.googleapis.com/css?family=Cantata+One|Josefin+Slab:400,600|Rokkitt:700');
 
+/*===================
+    General CSS
+=====================*/
+
 body{
     background-color:white;
 }
@@ -27,6 +31,19 @@ body{
     font-size: 300%;
     font-family: 'Rokkitt';
     color:dodgerblue;
+}
+
+.footercontainer footer{
+    Background-color: #e3242b;
+    margin-top: 10px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+
+}
+
+li {
+    margin-bottom: 1em;
 }
 
 h1{
@@ -80,13 +97,32 @@ h2{
 }
 
 
-.footercontainer footer{
-    Background-color: #e3242b;
-    margin-top: 10px;
-    padding: 15px;
-    text-align: center;
-    color: white;
+
 
 }
 
+/*===================
+    Events page
+=====================*/
 
+/*===================
+    Home page
+=====================*/
+
+/*===================
+    ElectionDay page
+=====================*/
+
+/*===================
+    Resources page
+=====================*/
+
+
+
+/*===================
+    Candidates page
+=====================*/
+
+/*===================
+    Register page
+=====================*/
