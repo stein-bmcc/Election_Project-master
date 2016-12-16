@@ -70,12 +70,26 @@ h2{
     padding: 25px
 }
 
+.page-title{
+    text-align: center;
+    font-size: 3em;
+    color:black;
+}
+
+/*===================
+    Home page
+=====================*/
+
 #clump img{
     padding-top: 20px;
     margin: 1px auto;
     display: block;
 
 }
+
+/*===================
+    Candidates page
+=====================*/
 
 #candidates img{
     margin: 1px auto;
@@ -84,11 +98,10 @@ h2{
 
 }
 
-.page-title{
-    text-align: center;
-    font-size: 3em;
-    color:black;
-}
+
+/*===================
+    Events page
+=====================*/
 
 .Calendar iframe{
     padding-top: 20px;
@@ -99,15 +112,6 @@ h2{
 
 
 
-}
-
-/*===================
-    Events page
-=====================*/
-
-/*===================
-    Home page
-=====================*/
 
 /*===================
     ElectionDay page
@@ -119,9 +123,6 @@ h2{
 
 
 
-/*===================
-    Candidates page
-=====================*/
 
 /*===================
     Register page
