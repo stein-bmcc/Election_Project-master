@@ -11,6 +11,11 @@
 body{
     background-color:white;
 }
+
+p{
+    margin: 0 0 1em 0;
+    padding:0;
+}
 .headercontainer h1{
     Background-color: #e3242b;
     margin-top: 0px;
@@ -42,9 +47,19 @@ body{
 
 }
 
-li {
+li{
     margin-bottom: 1em;
 }
+
+.list-of-links{
+    margin-bottom: 1em;
+}
+
+.list-of-links h4{
+    margin:0;
+    padding:0;
+}
+
 
 h1{
     color: teal;
@@ -67,7 +82,8 @@ h2{
 #nav li{
 
     display: inline;
-    padding: 25px
+    padding: 25px;
+    margin-bottom: 0;
 }
 
 .page-title{
@@ -112,18 +128,3 @@ h2{
 
 
 
-
-/*===================
-    ElectionDay page
-=====================*/
-
-/*===================
-    Resources page
-=====================*/
-
-
-
-
-/*===================
-    Register page
-=====================*/
