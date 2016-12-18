@@ -1,12 +1,16 @@
-
-.footercontainer footer{
-    @include container;
-    background-color:$primary;
-    .copyright{
-        @include span(6);
-    }
-    .about{
-        @include span(6 last);
-    }
+.pageheader{
+    padding: gutter();
+    color:#fff;
 
 }
+
+.page-footer{
+    padding: gutter();
+    color:#fff;
+}
+
+
+h1{
+    @include span(7);
+}
+
