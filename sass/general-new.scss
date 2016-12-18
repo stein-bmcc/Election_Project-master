@@ -1,0 +1,12 @@
+
+.footercontainer footer{
+    @include container;
+    background-color:$primary;
+    .copyright{
+        @include span(6);
+    }
+    .about{
+        @include span(6 last);
+    }
+
+}
