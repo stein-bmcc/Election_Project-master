@@ -1,11 +1,13 @@
 //STYLES FOR THE REGISTER PAGE
-    .main-content{
-        @include container;
+
+
+.main-content{
+        @include container(12);
 
 }
 
 .changing-registration{
-    @include span (4);
+    @include span (3);
     background-color: $highlight;
     color:#fff;
     padding:10px;
@@ -14,14 +16,14 @@
 }
 
 .Eligibility{
-        @include span(4);
+        @include span(3);
 }
 
 .How-to-register{
-        @include span(4);
+        @include span(3);
 }
 
 .How-to-register-2{
-        @include span();
+        @include span(3);
 
-}//END. REGISTER STYLES
+}
