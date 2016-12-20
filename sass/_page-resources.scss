@@ -1,0 +1,17 @@
+.get-involved{
+    @include span (3);
+}
+
+.voter-info{
+    @include span(3);
+}
+
+.media{
+    @include span(3);
+}
+
+.political-parties{
+    @include span (3 last);
+
+
+}

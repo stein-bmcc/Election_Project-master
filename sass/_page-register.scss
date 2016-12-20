@@ -1,0 +1,27 @@
+//STYLES FOR THE REGISTER PAGE
+    .main-content{
+        @include container;
+
+}
+
+.changing-registration{
+    @include span (4);
+    background-color: $highlight;
+    color:#fff;
+    padding:10px;
+    h1{
+        margin-top: 0;
+}
+
+.Eligibility{
+        @include span(4);
+}
+
+.How-to-register{
+        @include span(4);
+}
+
+.How-to-register-2{
+        @include span();
+
+}//END. REGISTER STYLES
