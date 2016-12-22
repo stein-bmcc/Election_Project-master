@@ -1,0 +1,30 @@
+
+.main-content{
+     @include container();
+
+}
+.get-involved{
+    @include span(3);
+    background-color: $hightlight;
+    color:#fff;
+    padding: 10px;
+
+    h1{
+    margin-top: 0;
+}
+
+
+.voter-info{
+    @include span(3);
+
+}
+
+.media{
+    @include span(3);
+}
+
+.political-parties{
+    @include span (3 last);
+
+
+}

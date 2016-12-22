@@ -1,3 +1,5 @@
+@import "navigation";
+@import "homepage";
 @import "utilities";
 @import "color";
 @import "responsive-base";
@@ -5,7 +7,4 @@
 @import "layout";
 @import "normalized-reset";
 @import "general";
-@import "navigation";
-@import "general-new";
-@import "page-register";
-@import "page-resources";
+@import "general_new";

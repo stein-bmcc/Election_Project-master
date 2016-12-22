@@ -1,3 +1,6 @@
+<!doctype html>
+<html class="no-js" lang="en-us"></html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -5,26 +8,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<!--    <link rel="stylesheet" href="midterm/normalized-reset.css">-->
+<link rel="stylesheet" href="sass/_general.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/vendor/modernizr2.8.3.min.js"></script>
 </head>
 
 <body>
 
-<header>
 <div class="headercontainer">
+   <header class="page-header cf">
     <h1>&#9733; NYC Votes 2016 &#9733; </h1>
     <h2>Young University Squad</h2>
 </div>
 
-<div id="nav">
+<nav id="nav">
+<ul>
  <li><a href="index.html" >Home</a></li>
     <li><a href="ElectionDay.html">Election Day</a></li>
    <li><a href="Candidates.html" >Candidates</a></li>
     <li><a href="Register.html" >Register</a></li>
     <li><a href="Events.html" >Events</a></li>
     <li><a href="Resources.html" >Resources</a></li>
+    </ul>
+</nav>
 
 </header>
 
@@ -126,7 +132,22 @@ Date: Wednesday, October 19
 
 </article>
 
-  <div class="footercontainer">
-   <footer>
-   &copy; Young University Squad
+  <footer class="page-footer">
+   <p class="copyright">&copy; 2016 Young University Squad</p>
     </footer>
+
+
+<!-- Load CDN version of jQuery. For other versions visit this page: https://code.jquery.com/jquery/ -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <!--    Load Local version if CDN is not working-->
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.1.1.min.js"><\/script>')</script>
+
+    <!--   Your jQuery and other JavaScript can go here in this script element. -->
+    <script>
+        jQuery(document).ready(function ($) {
+            // Your jQuery code here, using $ to refer to jQuery.
+        });
+    </script>
+</body>
+
+</html>

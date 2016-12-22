@@ -1,0 +1,15 @@
+// NOTE: This requires that you have Susy available. http://susy.oddbird.net
+// If you are using an app like Scout http://scout-app.io then it will add susy automatically when you write @import "susy";
+
+//GLOBAL SUSY LAYOUT SETTINGS ======================================
+@import "susy";
+$global-box-sizing: border-box;
+//This creates settting with a 12 column grid, gutters that are 1/2 the width of 1 column, gutters inside by setting the padding, a maximum width of 1500px and border-box
+$susy: (
+    columns: 12,
+    gutters: 1/2,
+    gutter-position: inside,
+    container: 1500px,
+    global-box-sizing: border-box,
+);
+

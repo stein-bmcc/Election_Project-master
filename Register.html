@@ -1,3 +1,6 @@
+<!doctype html>
+<html class="no-js" lang="en-us">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -5,37 +8,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<!--    <link rel="stylesheet" href="midterm/normalized-reset.css">-->
+<link rel="stylesheet" href="sass/_general.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/vendor/modernizr2.8.3.min.js"></script>
 </head>
 
-<body>
+<body class="register-page">
 
-<header>
+
 <div class="headercontainer">
+   <header class="page-header cf">
     <h1>&#9733; NYC Votes 2016 &#9733; </h1>
     <h2>Young University Squad</h2>
 </div>
 
-<div id="nav">
+<nav id="nav">
+<ul>
  <li><a href="index.html" >Home</a></li>
     <li><a href="ElectionDay.html">Election Day</a></li>
    <li><a href="Candidates.html" >Candidates</a></li>
     <li><a href="Register.html" >Register</a></li>
     <li><a href="Events.html" >Events</a></li>
     <li><a href="Resources.html" >Resources</a></li>
+    </ul>
+</nav>
 
 </header>
 
-<article>
+<article class="main-content">
+
+<section class="register">
+
+    <h1 class="page-title">Register to Vote</h1>
 
 
-     <h1 class="page-title">Register to Vote</h1>
+     <p>To be able to vote in the <strong>November 8, 2016</strong> General Election you must be registered to vote. This page has information on how to register to vote in New York State. If you live in another state try using the League of Women Voters registration tool: <a href="http://www.vote411.org/register">http://www.vote411.org/register</a>.</p>
+     <p><strong>DEADLINE: Friday, October 14, 2016.</strong> Your Voter Registration Form must be submitted to the NYS Board of Elections by <strong>October 14</strong>.</p>
+</section>
 
-
-<p>To be able to vote in the <strong>November 8, 2016</strong> General Election you must be registered to vote. This page has information on how to register to vote in New York State. If you live in another state try using the League of Women Voters registration tool: <a href="http://www.vote411.org/register">http://www.vote411.org/register</a>.</p>
-<p><strong>DEADLINE: Friday, October 14, 2016.</strong> Your Voter Registration Form must be submitted to the NYS Board of Elections by <strong>October 14</strong>.</p>
+<section class="changing-registration">
 <h1>Changing Your Registration</h1>
 <p>You also need to complete the Registration process outlined below if any of the following has changed:</p>
 
@@ -44,6 +55,10 @@
     <li>Your Party Affiliation (changing from one political party to another)</li>
     <li>Your Name (since you last voted)</li>
     </ul>
+</section>
+
+
+<section class="Eligibility">
 <h1>Eligibility</h1>
 <p>To register in New York State for the 2016 General Election you must meet the following criteria:</p>
 <ul>
@@ -55,6 +70,10 @@
 <li>not claim the right to vote elsewhere.</li>
 </ul>
 <p><em>The above qualifications were taken from the New York State Board of Elections web site</em>: <a href="http://www.elections.ny.gov/VotingRegister.html">http://www.elections.ny.gov/VotingRegister.html</a></p>
+</section>
+
+
+<section class="How-to-register">
 <h1>Check If and Where You Are Registered</h1>
 <p><em>If you are not sure whether you are registered to vote follow this link and enter your information</em>:
 <a href="https://voterlookup.elections.state.ny.us/votersearch.aspx">https://voterlookup.elections.state.ny.us/votersearch.aspx</a></p>
@@ -65,6 +84,9 @@
 <li>Mail-in</li>
 <li>Online</li>
 </ol>
+    </section>
+
+    <section class="How-to-register-2">
 <h1>In-Person Registration</h1>
 <h3>Deadline:</h3>
 <p>You must submit your application by <strong>October 14, 2016</strong>.</p>
@@ -101,16 +123,18 @@ To find a DMV near you visit this page:
     <p>View full <a href="http://www.elections.ny.gov/CountyBoards.html">NYS County Board Map</a></p>
 <p><strong>NYS Agency Offices</strong></p>
 <p>Through the National Voter Registration Act you may also register to vote when you use services at various state agencies. For a list visit this link: <a href="http://www.elections.ny.gov/NVRA.html">http://www.elections.ny.gov/NVRA.html</a></p>
+    </section>
 
+    <section class="how-to-register-3">
 <h1>Mail-in Registration</h1>
 <p>You may also mail in your registration form.</p>
 <p><strong>Deadline</strong>: Your application form must be postmarked <strong>October 14, 2016</strong>. It must be received by the Board of Elections by <strong>October 19, 2016</strong></p>
 <p><strong>How to Get a Mail-in Application Form</strong></p>
 <p>There are a number of ways to get your form:</p>
 
-<ul>
+<ul class="list-of-links">
 <li><strong>Download and Print it</strong>:
-    <a href="http://www.elections.ny.gov/NYSBOE/download/voting/voteform.pdf"</a> <a href="http://www.elections.ny.gov/NYSBOE/download/voting/voteform.pdf">http://www.elections.ny.gov/NYSBOE/download/voting/voteform.pdf</a></li>
+     <a href="http://www.elections.ny.gov/NYSBOE/download/voting/voteform.pdf">http://www.elections.ny.gov/NYSBOE/download/voting/voteform.pdf</a></li>
 
     <li><strong>CUNY students, faculty and staff can get a postage paid form through their CUNYfirst account. </strong><a href="http://www2.cuny.edu/about/administration/offices/government-relations/register-to-vote/"><strong>Click Here</strong></a> for more information.</li>
 
@@ -167,7 +191,7 @@ To find a DMV near you visit this page:
 
     <ol>
 
-    <li>Create a MyDMV account: <a href="https://my.dmv.ny.gov/crm/?register=T"</a>https://my.dmv.ny.gov/crm/?register=T</a></li>
+    <li>Create a MyDMV account: <a href="https://my.dmv.ny.gov/crm/?register=T">https://my.dmv.ny.gov/crm/?register=T</a></li>
 
     <li>Sign in to MyDMV: <a href="https://dmv.ny.gov/mydmv/mydmv">https://dmv.ny.gov/mydmv/mydmv</a></li>
 
@@ -176,7 +200,10 @@ To find a DMV near you visit this page:
 </ol>
 
 <p><em>The DMV will then send your completed form to the County Board of Elections for approval and processing.</em></p>
+    </section>
 
+
+    <section class="How-to-register-Special-Case">
 <h1>Student Voters</h1>
 <p>As a student you can register to vote either at the location of your college or at home. Register at the address you consider your primary legal residence. <br>You can find out more at <a href="https://www.brennancenter.org/analysis/student-voting-guide-new-york"> https://www.brennancenter.org/analysis/student-voting-guide-new-york</a>Brennan Center’s Student Voting Guide for New York.</p>
 
@@ -185,7 +212,11 @@ To find a DMV near you visit this page:
 
 <h1>Overseas and Military Voters</h1>
 <p>Information on how to register to vote and vote can be found on this web site:<a href="https://newyork.overseasvotefoundation.org/vote/home.htm">https://newyork.overseasvotefoundation.org/vote/home.htm</a> <br>You will be able to request and submit a ballot here <a href="https://ny.secureballotusa.com/NY_loginSelection.action">https://ny.secureballotusa.com/NY_loginSelection.action</a></p>
+    </section>
 
+
+
+<section class="Events">
 <h1>Events</h1>
 <strong>National Voter Registration Day</strong>
 <br>September 27, 2016
@@ -210,33 +241,63 @@ To find a DMV near you visit this page:
     <li>Volunteer with Rock the Vote: <a href="http://www.rockthevote.com/get-involved">more info</a>. </li>
     <li>NYPIRG Student Network (New York Public Interest Research Group) has job, volunteer and internship opportunities for students. <a href="http://www.nypirgstudents.org/network/">Complete this form </a>and select "Voter Mobilization &amp; Voting Rights" as one of the issues that interest you.</li>
 </ul>
+</section>
 
+
+<section class="resources">
 <h1>Resources</h1>
 
-<ul>
+<ul class="list-of-links">
 
-    <li>New York State Voter Registration Form: <br><em>This is the form that myst be recieved by the NY Board of Elections in one way or another:</em> <a href="http://www.elections.ny.gov/NYSBOE/download/voting/voteform.pdf">http://www.elections.ny.gov/NYSBOE/download/voting/voteform.pdf</a></li>
-    <br>
-    <li>New York State Voter Information Lookup: <br><a href="https://voterlookup.elections.state.ny.us/votersearch.aspx">https://voterlookup.elections.state.ny.us/votersearch.aspx</a></li>
-    <br>
-    <li>New York State Board of Elections Registration Information:<br> <a href="http://www.elections.ny.gov/VotingRegister.html">http://www.elections.ny.gov/VotingRegister.html</a></li>
-    <br>
-    <li>Overseas and Military Voters: <br><a href="https://newyork.overseasvotefoundation.org/vote/home.htm">https://newyork.overseasvotefoundation.org/vote/home.htm</a></li>
-    <br>
-    <li>CUNY Students, Faculty and Staff: you can contact your <a href="http://www2.cuny.edu/about/administration/offices/government-relations/register-to-vote/cuny-voter-registration-coordinators/">CUNY Voter Registration Coordinator</a> for more information.</li>
-    <br>
-    <li>New York State Board of Elections Voting Information: <br><a href="http://www.elections.ny.gov/VotingRegister.html">http://www.elections.ny.gov/VotingRegister.html</a></li>
-    <br>
-    <li>NY DMV Electronic Voter Registration Information: </li><a href="https://dmv.ny.gov/more-info/electronic-voter-registration-application">https://dmv.ny.gov/more-info/electronic-voter-registration-application</a></li>
+    <li>
+    <h4>New York State Voter Registration Form:</h4>
+        <p><em>This is the form that myst be recieved by the NY Board of Elections in one way or another:</em><a href="http://www.elections.ny.gov/NYSBOE/download/voting/voteform.pdf">http://www.elections.ny.gov/NYSBOE/download/voting/voteform.pdf</a></li>
+
+    <li>
+        <h4>New York State Voter Information Lookup:</h4> <p><a href="https://voterlookup.elections.state.ny.us/votersearch.aspx">https://voterlookup.elections.state.ny.us/votersearch.aspx</a></p></li>
+
+    <li>
+        <h4>New York State Board of Elections Registration Information:</h4><p> <a href="http://www.elections.ny.gov/VotingRegister.html">http://www.elections.ny.gov/VotingRegister.html</a></p></li>
+
+    <li>
+        <h4>Overseas and Military Voters:</h4> <p><a href="https://newyork.overseasvotefoundation.org/vote/home.htm">https://newyork.overseasvotefoundation.org/vote/home.htm</a></p></li>
+
+    <li>
+        <h4>CUNY Students, Faculty and Staff: you can contact your </h4><p><a href="http://www2.cuny.edu/about/administration/offices/government-relations/register-to-vote/cuny-voter-registration-coordinators/">CUNY Voter Registration Coordinator for more information.</a></p></li>
+
+    <li>
+        <h4>New York State Board of Elections Voting Information:</h4> <p><a href="http://www.elections.ny.gov/VotingRegister.html">http://www.elections.ny.gov/VotingRegister.html</a></p></li>
+
+    <li>
+        <h4>NY DMV Electronic Voter Registration Information:</h4> <p> <a href="https://dmv.ny.gov/more-info/electronic-voter-registration-application">https://dmv.ny.gov/more-info/electronic-voter-registration-application</a></p></li>
     <p></p>
-    <li>Vote 411 Online Tool:<br><a href="http://www.vote411.org/register">http://www.vote411.org/register</a></li>
-    <br>
-    <li>Federal Voting Assistance Program: <br><a href="https://www.fvap.gov/new-york">https://www.fvap.gov/new-york</a></li>
+
+    <li>
+        <h4>Vote 411 Online Tool:</h4><p><a href="http://www.vote411.org/register">http://www.vote411.org/register</a></p></li>
+
+    <li>
+        <h4>Federal Voting Assistance Program: </h4><p><a href="https://www.fvap.gov/new-york">https://www.fvap.gov/new-york</a></p></li>
 
 </ul>
+</section>
 </article>
 
-   <div class="footercontainer">
-   <footer>
-   &copy; Young University Squad
+   <footer class="page-footer">
+   <p class="copyright">&copy; 2016 Young University Squad</p>
     </footer>
+
+
+<!-- Load CDN version of jQuery. For other versions visit this page: https://code.jquery.com/jquery/ -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <!--    Load Local version if CDN is not working-->
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.1.1.min.js"><\/script>')</script>
+
+    <!--   Your jQuery and other JavaScript can go here in this script element. -->
+    <script>
+        jQuery(document).ready(function ($) {
+            // Your jQuery code here, using $ to refer to jQuery.
+        });
+    </script>
+</body>
+
+</html>
